@@ -1,2 +1,4 @@
 def arithmetic_arranger(problems):
-    pass
+    if len(problems) > 5:
+        return "Error: Too many problems."
+    return arranged_problems
